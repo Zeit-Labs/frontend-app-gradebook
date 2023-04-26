@@ -51,7 +51,7 @@ const TotalGradeLabelReplacement = () => (
  */
 const MastersOnlyFieldAsterisk = () => (
   <span className="font-weight-normal">*</span>
-)
+);
 
 /**
  * <UsernameLabelReplacement />
@@ -78,7 +78,7 @@ const MastersOnlyLabelReplacement = (message) => (
     <FormattedMessage {...message} />
     <MastersOnlyFieldAsterisk />
   </div>
-)
+);
 
 export default StrictDict({
   TotalGradeLabelReplacement,

@@ -36,7 +36,7 @@ describe('LabelReplacements', () => {
       expect(shallow(<UsernameLabelReplacement />)).toMatchSnapshot();
     });
   });
-  describe('MastersOnlyLabelReplacement', () =>{
+  describe('MastersOnlyLabelReplacement', () => {
     test('snapshot', () => {
       const message = {
         id: 'id',
