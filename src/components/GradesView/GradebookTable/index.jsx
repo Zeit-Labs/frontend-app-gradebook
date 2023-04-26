@@ -38,9 +38,9 @@ export class GradebookTable extends React.Component {
     } else if (heading === Headings.username) {
       label = <LabelReplacements.UsernameLabelReplacement />;
     } else if (heading === Headings.email) {
-      label = <FormattedMessage {...messages.emailHeading} />;
+      label = <LabelReplacements.MastersOnlyLabelReplacement {...messages.emailHeading} />;
     } else if (heading === Headings.fullName) {
-      label = <FormattedMessage {...messages.fullNameHeading} />;
+      label = <LabelReplacements.MastersOnlyLabelReplacement {...messages.fullNameHeading} />;
     } else {
       label = heading;
     }
